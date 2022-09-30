@@ -39,6 +39,5 @@ expectations:
       expected_count: 6
       
     - expectation_name: expect_total_count_of_entities_in_dataset_to_be_as_predicted
-      expectation_severity: RaiseError
-      expected_count: 44300
-      
+      expectation_severity: LogWarning
+      expected_count: 44355
